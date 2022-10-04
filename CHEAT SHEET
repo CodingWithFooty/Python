@@ -19,5 +19,34 @@ The len() function returns the number of items in an object
 print() + len () + input() 
 print(len(input("What is your name? ")))
 
+[0]
+Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets ([]). Starting from 0.
 
+_ < (underscore)
+Can be used to replaced commas when writing numbers.
+
+Type Check
+print(type())
+
+Converts
+bool()
+str()
+int()
+float()
+
+BODMAS
+()
+**
+/
+// divides as integar
+*
++
+-
+
+round(,2)
+The round() function returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
+
+
+F-String {}
+F-strings provide a concise and convenient way to embed python expressions inside string literals for formatting. 
 
