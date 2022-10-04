@@ -1,0 +1,15 @@
+Project 2: Goal and Assist Contributions
+
+#1. Create a greeting for your program.
+#2. Create a tip calculator based on these 3 variables, bill, tip and people.
+#3. Make sure the final output is rounded to two decimal places.
+
+print ("Welcome to the tip calculator")
+
+bill = float(input("What was the total bill? £"))
+tip = int(input("What percentage tip would you like to to give? 10, 12, or 15? "))
+people = int(input("How many people to split the bill? "))
+bill_with_tip = bill / 100 * tip + bill
+bill_per_person = bill_with_tip/people
+bill_per_person_rounded = round(bill_per_person,2)
+print(f"Your total indidivual bill works out to be {bill_per_person_rounded}")
