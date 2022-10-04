@@ -1,0 +1,15 @@
+Project 1: Player ID Generator
+
+#1. Create a greeting for your program.
+#2. Ask the user for the first name.
+#3. Ask the user for their year of birth.
+#4. Combine their name and year of birth and show them their Player ID
+#5. Make sure the input cursor shows on a new line.
+#6. How could you include a space inbetween their firstname and yearofbirth in the result?
+
+print("Welcome to the Player ID Generator")
+firstname = input("What is your first name?\n")
+yearofbirth = input("What is year were you born in?\n")
+print("Your Player ID is " + firstname+yearofbirth)
+
+print("Your Player ID is " + firstname+" "+yearofbirth)
