@@ -58,4 +58,4 @@ Elif means if, the first condition was not meant than try this instead.
 
 IF condidition :
 Else condition :
-elif condition :
+elif condition : between if and else.
