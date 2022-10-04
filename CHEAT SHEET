@@ -50,3 +50,12 @@ The round() function returns a floating point number that is a rounded version o
 F-String {}
 F-strings provide a concise and convenient way to embed python expressions inside string literals for formatting. 
 
+%
+The % symbol in Python is called the Modulo Operator. It returns the remainder of dividing the left hand operand by right hand operand.
+
+Conditional statements must be followed my a colon.
+Elif means if, the first condition was not meant than try this instead.
+
+IF condidition :
+Else condition :
+elif condition :
