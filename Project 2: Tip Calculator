@@ -12,4 +12,4 @@ people = int(input("How many people to split the bill? "))
 bill_with_tip = bill / 100 * tip + bill
 bill_per_person = bill_with_tip/people
 bill_per_person_rounded = round(bill_per_person,2)
-print(f"Your total indidivual bill works out to be {bill_per_person_rounded}")
+print(f"Your total indidivual bill works out to be £{bill_per_person_rounded}.")
